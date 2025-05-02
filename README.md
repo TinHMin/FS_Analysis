@@ -24,6 +24,20 @@ Current Population Survey - [Food Security Supplement Dataset 2023](https://www.
  3. Caculate the weighted count of food insecure households and prevalance rates
  4. Produce a geopackage which is used to create two GIS maps with QGIS software
 
+### Analysis Output: Visualization
+<p align="center">
+  <img src="/Food Insecured Household_Number_2023.png" width="45%" />
+  <img src="/Food Insecured Household_Percent_2023.png" width="45%" />
+</p>
+
+<img src="/Four_Panel_Food_Insecurity_Heatmaps.png" >
+
+<img src="/Two_Panel_Food_Insecurity_Heatmaps.png" >
+
+
+
+
+
 
 
 
