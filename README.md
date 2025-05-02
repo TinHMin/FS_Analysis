@@ -77,8 +77,30 @@ Using the two dataset mentioned above, the script does four key tasks as below.
 ### Analysis Output: Visualization
 
 <img src="/Food_security_trend.png" >
-<img src="/Assess_accuracy.png" >
+
+
 <img src="/Forecast_3years.png" >
+
+<table>
+<tr>
+<td>
+
+<img src="/Assess_accuracy.png">
+
+</td>
+<td>
+ 
+ **Model diagnostics**
+ a. ADF Statistic to assess data stationary: -3.49 p-value: 0.008
+ b. Use z-score to detect outliers in the residuals []
+ c. Residual Mean-squared error (RMSE): 0.9140
+
+
+</td>
+</tr>
+</table>
+
+
 
 
 
