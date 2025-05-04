@@ -7,7 +7,7 @@ The project aims to answer three learning questions:
 
 Three different analyses were conducted to response each question consecetively as follow.
 
-## A. Explore disparities in access to food among U.S households
+## 1. Explore disparities in access to food among U.S households
 ### Data analysis method 
 Descriptive analysis
 
@@ -31,12 +31,12 @@ Current Population Survey - [Food Security Supplement Dataset 2023](https://www.
   <img src="/Food Insecured Household_Percent_2023.png" width="45%" />
 </p>
 
-<img src="/Four_Panel_Food_Insecurity_Heatmaps.png" >
+<img src="/Four_Panel_Food_Insecurity_Heatmaps.png" width='80%' >
 
-<img src="/Two_Panel_Food_Insecurity_Heatmaps.png" >
+<img src="/Two_Panel_Food_Insecurity_Heatmaps.png" width='80%' >
 
 
-## B Assess the impact of convid-19 pandemic on access to food among different households by comparing food security status of 2019 against 2023
+## 2 Assess the impact of convid-19 pandemic on access to food among different households by comparing food security status of 2019 against 2023
 ### Data analysis method 
 Comparative analysis
 
@@ -54,11 +54,11 @@ Current Population Survey -[Food Security Supplement [Dataset 2023](https://www.
     
 ### Analysis Output: Visualization
 
-<img src="/Percent Change in Food Insecurity  by State(2019 v 2023).png" >
-<img src="/Number of Food Insecure Households(2019 v 2023).png" >
-<img src="/Food Insecurity Percentage by Group(2019 v 2023).png" >
+<img src="/Percent Change in Food Insecurity  by State(2019 v 2023).png" width="80%" >
+<img src="/Number of Food Insecure Households(2019 v 2023).png" width="80%">
+<img src="/Food Insecurity Percentage by Group(2019 v 2023).png" width="80%" >
 
-## C Assess the trend of food security status and forecast for next three years
+## 3 Assess the trend of food security status and forecast for next three years
 
 ### Data analysis method 
 Time series analysis - Autoregressive Integrated Moving Average (ARIMA) Model (2,0,1)
@@ -76,10 +76,10 @@ Using the two dataset mentioned above, the script does four key tasks as below.
 
 ### Analysis Output: Visualization
 
-<img src="/Food_security_trend.png" >
 
 
-<img src="/Forecast_3years.png" >
+
+<img src="/Forecast_3years.png"width="80%" >
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ Using the two dataset mentioned above, the script does four key tasks as below.
 </tr>
 </table>
 
-
+<img src="/Food_security_trend.png" width="80%" >
 
 
 
