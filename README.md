@@ -18,7 +18,7 @@ Househould characteristics - Household size, household type, poverty status, tot
 Current Population Survey - [Food Security Supplement Dataset 2023](https://www.census.gov/data/datasets/time-series/demo/cps/cps-supp_cps-repwgt/cps-food-security.2023.html#list-tab-216513607) 
  & [2023 TIGER/Line® Shapefiles: States (and equivalent)](https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2023&layergroup=States+%28and+equivalent%29) from U.S Census Bureau
 
- ### Script (descriptive_analysis.py)  
+ ### Script   [descriptive_analysis.py](descriptive_analysis.py)  
  Using the two datasets mentioned, the script does four tasks. 
  1. Read and extract the data elements for key variables relevant for the analysis and recode the selected variables
  2. Produce the two heat maps: one 2*2 grid map and 2-panel map
@@ -61,7 +61,7 @@ Househould characteristics - Household size, household type, poverty status; Geo
 ### Data source          
 Current Population Survey -[Food Security Supplement [Dataset 2023](https://www.census.gov/data/datasets/time-series/demo/cps/cps-supp_cps-repwgt/cps-food-security.2023.html#list-tab-216513607)  & [Dataset 2019](https://www.census.gov/data/datasets/time-series/demo/cps/cps-supp_cps-repwgt/cps-food-security.2019.html#list-tab-216513607)
 
-### Script (comparative_analysis.py)  
+### Script      [comparative_analysis.py](comparative_analysis.py) 
  Using the two datasets mentioned, the script carries out three tasks. 
  1. Read and extract the data elements for key variables relevant for the analysis and recode the selected variables and merge the datasets
  2. Calculate absolute and percent differences of food security status
@@ -99,7 +99,7 @@ Time series analysis - Autoregressive Integrated Moving Average (ARIMA) Model (2
 1. Food security data from  [Trend in U.S Food Security](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/interactive-charts-and-highlights#trends) Economic Research Service USDA.
 2. SNAP participation and Poverty data from [SNAP Key Statistics and Research](https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research0) Economic Research Service USDA.
    
-### Script (tseries_forecast_analysis.py)  
+### Script   [tseries_forecasting_analysis.py](tseries_forecasting_analysis.py) 
 Using the two dataset mentioned above, the script does four key tasks as below.
 1. Create a time sereis graph for food security, poverty and SNAP participation rate
 2. Explore the appropriate orders for ARIMA model
