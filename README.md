@@ -6,7 +6,7 @@ The project aims to answer three learning questions:
 3. What are the projected trends in food insecurity in the near term?
 
 ## Measure of Food Insecurity
-The project follows the defintion of food insecurity used in the Current Population Survey - Food Security Supplement Module. The survey administers 18 food security questions and those who responded 'yes' to three or more is identified as low food security household or food insecure household. The project uses *overall* food insecurity rate combining both low and very low food secure household.
+The project adopts the definition of food insecurity used in the Current Population Survey – Food Security Supplement (CPS-FSS) Module. The CPS-FSS includes 18 questions related to household food conditions and behaviors. Households that respond “yes” to three or more of these questions are classified as food insecure, encompassing both low and very low food security categories. This project uses the overall food insecurity rate, combining households with low and very low food security..
 
 
 
