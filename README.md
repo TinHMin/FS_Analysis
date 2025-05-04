@@ -131,6 +131,7 @@ ________________________________________________________________________________
 6. ar.l2  p-value 0.000
 7. ma.l1  p-value 0.729
 8. Residual Mean-squared error: 0.9140
+9. Mean absolute percent error: 5.45%
 
 </td>
 <td style="width:30%; vertical-align:top;">
@@ -141,7 +142,7 @@ ________________________________________________________________________________
 
 **Fig 8. Statistic for assessing the stationary of the series and summary of the ARIMA(2,0,1)**
 
-The ARIMA(2,0,1) model was selected as the best-fit model using Python's auto_arima function, which automates the selection based on criteria like AIC and BIC. Overall, the ARIMA(2,0,1) model provides a statistically justified and interpretable structure for forecasting food insecurity, with strong autoregressive components capturing temporal patterns
+The model has 94.5% accuracy. The ARIMA(2,0,1) model was selected as the best-fit model using Python's auto_arima function, which automates the selection based on criteria like AIC and BIC. Overall, the ARIMA(2,0,1) model provides a statistically justified and interpretable structure for forecasting food insecurity, with strong autoregressive components capturing temporal patterns.
 _________________________________________________________________________________________________________
 <img src="/Forecast_3years.png" width="80%" >
 
