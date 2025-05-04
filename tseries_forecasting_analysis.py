@@ -105,7 +105,7 @@ print("Outliers Detected at Indices:", outliers)
 # No outlier is observed
 
 
-# 2 Validate the forecast accuracy of your ARIMA(2,0,1) model using RMSE (Root Mean Squared Error):
+# 2 Validate the forecast accuracy of your ARIMA(2,0,1) model using RMSE (Root Mean Squared Error) 
 from sklearn.metrics import mean_squared_error
 import numpy as np
 import matplotlib.pyplot as plt
@@ -128,6 +128,7 @@ forecast = fitted_model.forecast(steps=len(test_data))
 rmse = np.sqrt(mean_squared_error(test_data, forecast))
 print(f"RMSE: {rmse:.4f}")
 
+
 # Plot actual vs forecasted values
 plt.figure(figsize=(10, 6))
 plt.plot(range(len(time_series)), time_series, label="Actual Data")
@@ -138,6 +139,20 @@ plt.xlabel("Year")
 plt.ylabel("Food Insecurity Percent")
 plt.title("ARIMA(2, 0, 1) Forecast vs Actual")
 plt.savefig('Assess_accuracy')
+#%%
+#  Calculate MAPE to assess accuracy using original series data
+from sklearn.metrics import mean_absolute_percentage_error
+
+model = ARIMA(time_series, order=(2, 0, 1))
+model_fit = model.fit()
+
+# Forecast in-sample (same length as original data)
+predictions = model_fit.fittedvalues
+
+# Compute MAPE (handle divide-by-zero if needed)
+mape = mean_absolute_percentage_error(time_series, predictions) * 100
+
+print(f"MAPE: {mape:.2f} %")
 
 #%%
 # D Forcast the food insecurity percent for the next three years (2024-2026) and put the result on the graph
@@ -182,3 +197,5 @@ plt.grid(color="lightgray", linestyle="--", linewidth=0.7, alpha=0.7)
 plt.legend(fontsize=10)
 plt.tight_layout()
 plt.savefig('Forecast_3years')
+
+#%%
