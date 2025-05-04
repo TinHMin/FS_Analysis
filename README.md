@@ -5,6 +5,11 @@ The project aims to answer three learning questions:
 2. How did COVID-19 affect access to food? Did the different types of household experience different level of negative impact on thier food security?
 3. What are the projected trends in food insecurity in the near term?
 
+## Measure of Food Insecurity
+The project follows the defintion of food insecurity used in the Current Population Survey - Food Security Supplement Module. The survey administers 18 food security questions and those who responded 'yes' to three or more is identified as low food security household or food insecure household. The project uses *overall* food insecurity rate combining both low and very low food secure household.
+
+
+
 Three different analyses were conducted to response each question consecetively as follow.
 
 ## 1. Explore disparities in access to food among U.S households
