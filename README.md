@@ -10,9 +10,9 @@ The project adopts the definition of food insecurity used in the Current Populat
 
 
 
-Three different analyses were conducted to response each question consecetively as follow.
+Three different analyses were conducted to answer each learning question consecutively as follow.
 
-## 1. Explore disparities in access to food among U.S households
+## 1. Disparities in access to food among U.S households in 2023
 ### Data analysis method 
 Descriptive analysis
 
@@ -27,7 +27,7 @@ Current Population Survey - [Food Security Supplement Dataset 2023](https://www.
  Using the two datasets mentioned, the script does four tasks. 
  1. Read and extract the data elements for key variables relevant for the analysis and recode the selected variables
  2. Produce the two heat maps: one 2*2 grid map and 2-panel map
- 3. Caculate the weighted count of food insecure households and prevalance rates
+ 3. Caculate the weighted count of food insecure households and food insecurity rates
  4. Produce a geopackage which is used to create two GIS maps with QGIS software
 
 ### Analysis Output: Visualization
@@ -36,7 +36,7 @@ Current Population Survey - [Food Security Supplement Dataset 2023](https://www.
   <img src="/Food Insecured Household_Percent_2023.png" width="45%" />
 </p>
 
-**Fig 1. Absolute and percent distribution of food insecure household in U.S in 2023** 
+**Fig 1. Absolute and percent distribution of food insecure household in U.S** 
 
 The maps show the number of food insecure household acroos different states in the country. Some states such as Taxes, California, New York have higher number of the insecure populations which is partly attributed to the larger population size of these states. In addition, some other states such as Goregia, Arkansas, Kentuky and Lousiana, experieced higher prevalence of food insecurity. Taxes happened to have both higher prevalence and number of food insecure household.
 
@@ -56,7 +56,8 @@ ________________________________________________________________________________
 The graph shows, generally, food insecurity was more common in smaller family households and among those with less spending on food. The condition was more prominent in such states as Taxes, New York, California, and Illinois.
 _________________________________________________________________________________________________________
 
-## 2 Assess the impact of convid-19 pandemic on access to food among different households by comparing food security status of 2019 against 2023
+## 2. Impact of the COVID-19 pandemic on access to food among different households: A comparison of food security status between 2019 and 2023
+
 ### Data analysis method 
 Comparative analysis
 
@@ -95,7 +96,7 @@ The pandemic have made the gap larger in access to food among household of diffe
 _________________________________________________________________________________________________________
 
 
-## 3 Assess the trend of food security status and forecast for next three years
+## 3. Trend of food security status and forecast for next three years
 
 ### Data analysis method 
 Time series analysis - Autoregressive Integrated Moving Average (ARIMA) Model (2,0,1)
